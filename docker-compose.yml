@@ -1,0 +1,17 @@
+services:
+  mc:
+    image: itzg/minecraft-server
+    container_name: mc-server-docker
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"     # Java
+      - "19132:19132/udp" # Bedrock
+    environment:
+      EULA: "TRUE"
+      TYPE: "CUSTOM"
+      CUSTOM_SERVER: "/data/server.jar"
+      MEMORY: "12G"
+    volumes:
+      - ./data:/data
+    restart: always

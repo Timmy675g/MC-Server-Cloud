@@ -1,0 +1,25 @@
+server.basics:
+    description: Basic commands for all players
+    default: true
+    children:
+        essentials.home: true
+        essentials.sethome: true
+        essentials.tpa: true
+        essentials.tpaccept: true
+        essentials.tpdeny: true
+        essentials.spawn: true
+        essentials.msg: true
+        essentials.delhome: true
+        essentials.sethome.multiple: true
+        essentials.sethome.multiple.default: true
+aliases:
+  fairnessgive:
+  - "minecraft:give $1 mace[enchantments={\"minecraft:breach\":4,\"minecraft:unbreaking\":3,\"minecraft:mending\":1}] 1"
+  - "minecraft:give $1 netherite_chestplate[enchantments={\"minecraft:protection\":4,\"minecraft:unbreaking\":3}] 1"
+  - "minecraft:give $1 netherite_leggings[enchantments={\"minecraft:protection\":4,\"minecraft:unbreaking\":3}] 1"
+  - "minecraft:give $1 netherite_sword[enchantments={\"minecraft:sharpness\":4,\"minecraft:unbreaking\":3}] 1"
+  - "minecraft:give $1 enchanted_book[stored_enchantments={\"minecraft:mending\":1}] 2"
+  - "minecraft:give $1 enchanted_book[stored_enchantments={\"minecraft:unbreaking\":3}] 2"
+  - "minecraft:give $1 netherite_upgrade_smithing_template 1"
+  - "minecraft:give $1 netherite_ingot 8"
+  - "minecraft:give $1 wind_charge 32"

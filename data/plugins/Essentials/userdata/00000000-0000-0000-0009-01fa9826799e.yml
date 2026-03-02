@@ -1,0 +1,55 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 114.124.143.49
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1772428315700
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1772430178055
+  login: 1772429298294
+money: '0'
+last-account-name: .StuffyFish8122
+logoutlocation:
+  world: f6ab2aa0-46c4-444c-9e65-0c15c2b90b6c
+  world-name: world_nether
+  x: -87.94326
+  y: 7.0
+  z: -23.30001001192093
+  yaw: 59.476409912109375
+  pitch: 36.25555419921875
+lastlocation:
+  world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+  world-name: world
+  x: -1018.228
+  y: 1.0
+  z: -278.24115
+  yaw: 178.27845764160156
+  pitch: 2.9400177001953125
+homes:
+  gaby:
+    world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+    world-name: world
+    x: -1036.275
+    y: -53.0
+    z: -346.8082
+    yaw: 126.40374755859375
+    pitch: 20.448974609375
+  juno:
+    world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+    world-name: world
+    x: -1018.6999899880791
+    y: 1.0
+    z: -276.83374
+    yaw: 169.5341033935547
+    pitch: 18.879135131835938

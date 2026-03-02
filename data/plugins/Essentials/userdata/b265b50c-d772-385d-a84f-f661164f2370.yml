@@ -1,0 +1,55 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 114.79.3.25
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1771510325101
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1772430327851
+  login: 1772430313195
+money: '0'
+last-account-name: FreeGuy3025
+logoutlocation:
+  world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+  world-name: world
+  x: 1022.0343
+  y: 105.0
+  z: 786.7659
+  yaw: 170.716552734375
+  pitch: 12.782852172851562
+lastlocation:
+  world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+  world-name: world
+  x: 1014.057
+  y: 97.0
+  z: 769.3000100119209
+  yaw: -34.753021240234375
+  pitch: 38.30889892578125
+homes:
+  home:
+    world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+    world-name: world
+    x: 1028.2043
+    y: 100.5625
+    z: 783.78314
+    yaw: 75.7357177734375
+    pitch: 31.639862060546875
+  end:
+    world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+    world-name: world
+    x: 1783.3046
+    y: 29.0
+    z: -683.39307
+    yaw: -179.58444213867188
+    pitch: 35.64311218261719

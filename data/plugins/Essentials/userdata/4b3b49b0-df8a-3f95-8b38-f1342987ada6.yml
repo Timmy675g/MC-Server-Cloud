@@ -1,0 +1,63 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 103.3.222.34
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1772348339035
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1772348881744
+  login: 1772348203525
+money: '0'
+last-account-name: Darkopeleb
+logoutlocation:
+  world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+  world-name: world
+  x: -937.8620329740273
+  y: 64.0
+  z: -505.12739323118336
+  yaw: 146.798583984375
+  pitch: 26.249887466430664
+lastlocation:
+  world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+  world-name: world
+  x: 940.8816596289716
+  y: 93.162141421027
+  z: 506.81461930728614
+  yaw: -50.47370529174805
+  pitch: 40.49998474121094
+homes:
+  base:
+    world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+    world-name: world
+    x: 1142.1168762451978
+    y: 65.0
+    z: 6193.342350135503
+    yaw: 154.44833374023438
+    pitch: 31.05007553100586
+  basew:
+    world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+    world-name: world
+    x: 1156.8841555618137
+    y: 20.0
+    z: 575.1387326773737
+    yaw: 8.690887451171875
+    pitch: 23.919328689575195
+  gatau:
+    world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+    world-name: world
+    x: -732.0388571307592
+    y: 63.0
+    z: -605.3098274078817
+    yaw: 57.59983825683594
+    pitch: 5.100009918212891

@@ -1,0 +1,63 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 114.4.82.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1772387304286
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1772388001994
+  login: 1772380543024
+money: '0'
+last-account-name: 0dysseus_KOI
+lastlocation:
+  world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+  world-name: world
+  x: 1871.8494065177451
+  y: 167.0
+  z: -1000885.2852497969
+  yaw: 0.15353000164031982
+  pitch: 46.94987106323242
+homes:
+  home:
+    world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+    world-name: world
+    x: 1872.5299006331452
+    y: 191.0
+    z: -1000885.2871275516
+    yaw: 2.5535526275634766
+    pitch: 72.14999389648438
+  no_2:
+    world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+    world-name: world
+    x: 3319.7158908439546
+    y: 251.0
+    z: -38.46248760264983
+    yaw: -92.5526351928711
+    pitch: 89.8499984741211
+  village2:
+    world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+    world-name: world
+    x: 452.72316124138104
+    y: -46.0
+    z: -1001824.2096010825
+    yaw: 75.00255584716797
+    pitch: 18.899900436401367
+logoutlocation:
+  world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+  world-name: world
+  x: 1871.300000011921
+  y: 165.20000004768372
+  z: -1000886.3000000119
+  yaw: 172.2027130126953
+  pitch: -0.15006934106349945

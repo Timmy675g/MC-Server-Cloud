@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 157.85.206.89
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1771830540519
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1771832579301
+  login: 1771830252487
+money: '0'
+last-account-name: .BFMBroski
+lastlocation:
+  world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+  world-name: world
+  x: -4205.8784
+  y: -57.0
+  z: 1751.0359
+  yaw: -169.77310180664062
+  pitch: 36.01617431640625
+logoutlocation:
+  world: f6ab2aa0-46c4-444c-9e65-0c15c2b90b6c
+  world-name: world_nether
+  x: -418.3
+  y: 16.0
+  z: 212.30001001192093
+  yaw: -24.817138671875
+  pitch: 8.23114013671875
+homes:
+  home:
+    world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+    world-name: world
+    x: -3723.0676
+    y: 71.0
+    z: 1416.5626
+    yaw: -2.406707763671875
+    pitch: 34.650726318359375
