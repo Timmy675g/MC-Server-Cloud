@@ -7,7 +7,24 @@ on:
     branches: [ "main" ]
 
 jobs:
+  # Stage 1: Security Scanning 
+  security-scan:
+    name: "Shield Check"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # For Scanning History
+
+      - name: Gitleaks Scan
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # This stage will fail the entire CI / CD Pipelines if it found Secret Token on the Repo without .gitignore!
+
+  # Stage 2 : Validation (Verification and Validating)
   validate-config:
+    needs: security-scan
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -15,12 +32,49 @@ jobs:
       - name: Verify Docker Compose Syntax
         run: docker compose config --quiet
 
-      - name: Check for Tab/Space errors in Purpur Config
+      - name: YAML Linting (Strict)
+        uses: ibiqlik/action-yamllint@v3
+        with:
+          file_or_dir: data/
+
+      - name: Check for Tab errors in Purpur Config
         run: |
           if grep -q $'\t' data/purpur.yml; then
-            echo "Error: Found tabs in YAML! It seems that Purpur is having a problem!"
+            echo "Error: Found tabs in YAML! Purpur will fail to load."
             exit 1
           fi
 
-      - name: Logic Check Complete
-        run: echo "Infrastructure is valid. Ready for Watchtower."
+  # Stage 3 : Dry Run (Is it Valid or nah?)
+  test-run:
+    needs: validate-config
+    runs-on: ubuntu-latest
+    steps:
+      - name: Simulate Startup
+        run: docker compose --dry-run up --no-start
+  
+  # Deploy to Main Branch
+  merge-to-main:
+    needs: test-run
+    if: github.event_name == 'pull_request' 
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main         # Start on the destination (Main Branch)
+          fetch-depth: 0    # Get the full history so we can merge it
+
+      - name: Merge Feature into Main
+        run: |
+          git config user.name "tim-pull-bot"
+          git config user.email "bot@timmylionel.com"
+          
+          # 1. Fetch the latest from the branch that the recent version is in 
+          git fetch origin ${{ github.head_ref }}
+          
+          # 2. Perform the merge with the latest version 
+          git merge origin/${{ github.head_ref }} --no-ff -m "Automated merge: Passed CI/CD Validation" # Merge the push to the latest push and verify if the latest push is broken or not
+          
+          # 3. Push the result to the Main Branch
+          git push origin main
