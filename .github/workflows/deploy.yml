@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  SERVER_PATH: "~/minecraft-docker"
+  SERVER_PATH: "/home/timmylionel/minecraft-docker"
 
 jobs:
   ship-it:
