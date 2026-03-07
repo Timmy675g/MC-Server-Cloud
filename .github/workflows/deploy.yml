@@ -15,16 +15,19 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Sync to GCP
-        uses: Burnett01/rsync-deployments@7.0.0
-        with:
-          switches: -avzr --delete
-          rsh: ssh -o StrictHostKeyChecking=no 
-          path: "./"
-          remote_path: ${{ env.SERVER_PATH }}
-          remote_host: ${{ secrets.GCP_IP }}
-          remote_user: ${{ secrets.GCP_USER }}
-          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Sync to GCP (Manual Mode)
+        run: |
+          # 1. Create a temporary file for the key
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > private_key
+          chmod 600 private_key
+          
+          # 2. Run the actual rsync command
+          rsync -avzr --delete \
+            -e "ssh -i private_key -o StrictHostKeyChecking=no" \
+            ./ ${{ secrets.GCP_USER }}@${{ secrets.GCP_IP }}:${{ env.SERVER_PATH }}
+            
+          # 3. Clean up the key
+          rm private_key
 
       - name: Reload Docker
         uses: appleboy/ssh-action@v1.0.3
