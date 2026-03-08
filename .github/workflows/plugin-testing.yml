@@ -13,7 +13,7 @@ jobs:
 
       - name: Log Inspection & Error Scan
         run: |
-          chmod -R 777 ./plugins # I know it's dangerous but for a plugin scan for like 20 seconds? It should be fine
+          sudo chown -R $USER:$USER ./plugins
           set +e  # Basically Tell the script not to quit if a grep finds nothing it's just set exit
           
           echo "Waiting for server to boot..."
