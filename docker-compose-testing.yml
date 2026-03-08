@@ -1,5 +1,6 @@
 services:
   mc-tester:
+    user: "0:0"
     container_name: mc-tester
     image: itzg/minecraft-server
     environment:
