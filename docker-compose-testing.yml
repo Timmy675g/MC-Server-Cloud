@@ -1,5 +1,6 @@
 services:
   mc-tester:
+    container_name: mc-tester
     image: itzg/minecraft-server
     environment:
       EULA: "TRUE"

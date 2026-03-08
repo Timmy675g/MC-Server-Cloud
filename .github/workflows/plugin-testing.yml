@@ -12,14 +12,24 @@ jobs:
 
       - name: Log Inspection
         run: |
-          echo "Waiting for server to boot..."
-          # This loop checks the logs for the "Done" message
-          timeout 120s grep -q "Done" <(docker logs -f mc-tester)
+          echo "Initializing docker... and Taking a breath :]"
+          sleep 10
           
-          # This checks if there are any Severe or Error lines
-          if docker logs mc-tester | grep -Ei "Error|Exception|Severe"; then
-            echo "Oh No! Plugin caused an error!"
+          # Check if the container is even running
+          if ! docker ps | grep -q "mc-tester"; then
+            echo "Oh noes! Container failed to start! Here is the logs for debugging:"
+            docker compose -f docker-compose-testing.yml logs
             exit 1
+          fi
+
+          echo "Waiting for server to boot..."
+          # This follows the logs until the Done appears, with a 3 minute timeout to let the server boot
+          timeout 180s stdbuf -oL docker logs -f mc-tester | grep -m 1 "Done"
+          
+          if [ $? -eq 0 ]; then
+            echo "Yay! Server reached 'Done' state!"
           else
-            echo "Server booted clean and nice!"
+            echo "Oh no! Server timed out or crashed before Done."
+            docker logs mc-tester
+            exit 1
           fi
