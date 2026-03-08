@@ -7,8 +7,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Start Ghost Server
-        run: docker-compose -f docker-compose-testing.yml up -d
+      - name: Start Testing Server
+        run: docker compose -f docker-compose-testing.yml up -d
 
       - name: Log Inspection
         run: |
