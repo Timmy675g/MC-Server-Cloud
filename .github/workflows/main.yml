@@ -24,7 +24,7 @@ jobs:
 
   # Stage 2 : Validation (Verification and Validating)
   validate-config:
-    needs: security-scan
+    needs: Security Scan
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -41,7 +41,7 @@ jobs:
 
   # Stage 3 : Dry Run (Is it Valid or nah?)
   test-run:
-    needs: validate-config
+    needs: Validate The Config
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
