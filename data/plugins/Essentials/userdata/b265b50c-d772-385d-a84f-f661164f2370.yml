@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 114.79.3.25
+ip-address: 111.94.198.211
 afk: false
 socialspy: false
 npc: false
@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1772430327851
-  login: 1772430313195
+  logout: 1773235626052
+  login: 1773235607239
 money: '0'
 last-account-name: FreeGuy3025
 logoutlocation:
   world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
   world-name: world
-  x: 1022.0343
+  x: 1022.01135
   y: 105.0
-  z: 786.7659
-  yaw: 170.716552734375
-  pitch: 12.782852172851562
+  z: 786.8259
+  yaw: -139.86463928222656
+  pitch: 1.851287841796875
 lastlocation:
   world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
   world-name: world

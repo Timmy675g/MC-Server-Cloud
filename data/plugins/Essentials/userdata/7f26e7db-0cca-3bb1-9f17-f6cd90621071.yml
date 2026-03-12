@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 114.124.143.49
+ip-address: 180.252.240.151
 afk: false
 socialspy: false
 npc: false
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1772429281651
-  login: 1772429268945
+  logout: 1773233331229
+  login: 1773233318339
 money: '0'
 last-account-name: StuffyFish8122
 logoutlocation:
@@ -26,8 +26,8 @@ logoutlocation:
   x: -869.80066
   y: 74.0
   z: -324.2176
-  yaw: -0.0933990478515625
-  pitch: 0.0
+  yaw: 66.14840698242188
+  pitch: -12.4500732421875
 lastlocation:
   world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
   world-name: world

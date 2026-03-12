@@ -534,6 +534,11 @@ help:
   warps: View a list of your teams warps
   rankup: Rank your team up to get more perks
   tag: Set your teams tag
+  delwarp: Delete that warp from your team
+  pvp: Toggle if pvp is enabled for your team
+  baltop: View the richest teams
+  list: Get a list of all teams on the server
+  warp: Warp to a location set by your team
 helpArg:
   delhome: ''
   echest: ''
@@ -575,7 +580,7 @@ helpArg:
   open: ''
   warp: <name>
   withdraw: <amount>
-  anchor: ''
+  anchor: <true/false>
   setanchor: <true/false>
   teamadmin:
     echest: <team>

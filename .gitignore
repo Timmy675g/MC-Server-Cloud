@@ -2,6 +2,7 @@
 data/world/
 data/world_nether/
 data/world_the_end/
+data/server.properties
 
 # Ignore logs and backups
 *.log
@@ -14,6 +15,11 @@ data/plugins/bStats/
 data/plugins/Dynmap/web/
 data/usercache.json
 data/whitelist.json.tmp
+data/plugins/Essentials/userdata/
+data/plugins/Essentials/usermap.bin
+data/plugins/BetterTeams/
+plugins/*
+!plugins/*.jar
 
 # Java/Server Junk 
 data/cache/

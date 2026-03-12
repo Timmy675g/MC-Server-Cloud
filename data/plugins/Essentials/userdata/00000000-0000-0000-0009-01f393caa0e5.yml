@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 114.8.208.183
+ip-address: 114.10.29.137
 afk: false
 socialspy: false
 npc: false
@@ -11,20 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1773242027620
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1772166851547
-  login: 1772166841807
+  logout: 1773243397496
+  login: 1773234513239
 money: '0'
 last-account-name: .JustSomeSock
 logoutlocation:
   world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
   world-name: world
-  x: -856.547
-  y: 74.0
-  z: -251.44444
-  yaw: 5.650421142578125
-  pitch: 20.16741943359375
+  x: -17726.982
+  y: 1.0
+  z: 5625.6377
+  yaw: -178.06639099121094
+  pitch: 82.54022216796875
+lastlocation:
+  world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
+  world-name: world
+  x: -17739.5
+  y: 1.0
+  z: 5622.5
+  yaw: 91.59671020507812
+  pitch: 22.235794067382812

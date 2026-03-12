@@ -1,6 +1,7 @@
 services:
   mc:
     image: itzg/minecraft-server
+    stop_grace_period: 1m
     container_name: mc-server-docker
     tty: true
     stdin_open: true

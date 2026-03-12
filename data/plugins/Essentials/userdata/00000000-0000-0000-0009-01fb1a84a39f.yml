@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 114.79.3.25
+ip-address: 111.94.198.211
 afk: false
 socialspy: false
 npc: false
@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1772431007311
+  lastteleport: 1773318334627
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1772431195499
-  login: 1772430344596
+  logout: 1773318348381
+  login: 1773315365366
 money: '0'
 last-account-name: .FreeGuy3025
 logoutlocation:
   world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
   world-name: world
-  x: 2104.4072
-  y: -43.0
-  z: 7697.9243
-  yaw: -5.526123046875
-  pitch: 11.1103515625
+  x: 3919.5
+  y: -51.0
+  z: 10030.5
+  yaw: -171.4877471923828
+  pitch: 44.90338134765625
 lastlocation:
-  world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
-  world-name: world
-  x: -1017.58026
-  y: 1.0
-  z: -278.6999899880791
-  yaw: 177.39324951171875
-  pitch: 4.679046630859375
+  world: f6ab2aa0-46c4-444c-9e65-0c15c2b90b6c
+  world-name: world_nether
+  x: -86.677536
+  y: 37.0
+  z: 31.112793
+  yaw: -171.48779296875
+  pitch: 44.90338134765625
 homes:
   trials:
     world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
@@ -53,11 +53,11 @@ homes:
     z: 7696.300010011921
     yaw: 13.14923095703125
     pitch: 19.759963989257812
-  base:
+  home:
     world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
     world-name: world
-    x: 1418.5
-    y: 83.0
-    z: 7720.5
-    yaw: 100.59085083007812
-    pitch: 56.1219482421875
+    x: 3919.5686
+    y: -51.0
+    z: 10030.149
+    yaw: 162.7114715576172
+    pitch: 22.510635375976562

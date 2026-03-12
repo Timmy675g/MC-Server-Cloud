@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 119.110.67.175
+ip-address: 182.253.59.186
 afk: false
 socialspy: false
 npc: false
@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1772408800745
+  lastteleport: 1773273181477
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1772429779054
-  login: 1772429628446
+  logout: 1773320721624
+  login: 1773319238516
 money: '0'
 last-account-name: .CaptLeoxander
 logoutlocation:
   world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
   world-name: world
-  x: 9.64187
-  y: 63.0
-  z: -908.52655
-  yaw: -104.77899169921875
-  pitch: 10.895751953125
+  x: -440.16956
+  y: -52.0
+  z: -652.30725
+  yaw: -44.6669921875
+  pitch: 33.816314697265625
 lastlocation:
   world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
   world-name: world
-  x: 17.5
-  y: 63.0
-  z: -893.5
-  yaw: -45.0000114440918
-  pitch: 0.0
+  x: -502.7696
+  y: 64.0
+  z: 234.83374
+  yaw: -112.7747802734375
+  pitch: 23.04541015625

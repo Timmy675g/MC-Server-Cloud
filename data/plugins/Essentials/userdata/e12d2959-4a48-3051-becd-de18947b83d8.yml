@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 111.94.131.95
+ip-address: 111.94.130.56
 afk: false
 socialspy: false
 npc: false
@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1772375629497
+  lastteleport: 1773319000334
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1772376384381
-  login: 1772371184774
+  logout: 1773319050873
+  login: 1773318639616
 money: '0'
 last-account-name: .gugu1446
 homes:
@@ -29,35 +29,35 @@ homes:
     z: 782.6296041458925
     yaw: 161.74888610839844
     pitch: 42.10144805908203
-  rumahgabby:
+  rumahrmilano:
     world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
     world-name: world
-    x: -1035.5
-    y: -53.0
-    z: -340.5
-    yaw: 128.99575805664062
-    pitch: 9.661438941955566
-  realmobfarm:
+    x: -423.92087829287243
+    y: -59.0
+    z: -621.8557552481857
+    yaw: 47.759300231933594
+    pitch: 30.417972564697266
+  newbase:
     world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
     world-name: world
-    x: 2104.6168572798533
-    y: -43.0
-    z: 7698.300000011921
-    yaw: 6.957757949829102
-    pitch: 15.436503410339355
+    x: 21260.59884749569
+    y: 280.0
+    z: 22995.818408300907
+    yaw: 110.06356811523438
+    pitch: 56.97669219970703
 lastlocation:
   world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
   world-name: world
-  x: 1016.4347220065201
-  y: 102.0
-  z: 784.6999999880791
-  yaw: 168.81057739257812
-  pitch: 19.70469856262207
+  x: -1165.7753790309882
+  y: 68.0
+  z: -446.21020878955215
+  yaw: -167.77349853515625
+  pitch: 42.74300765991211
 logoutlocation:
   world: ac943381-bedd-42aa-b2b5-bafb4b1c4747
   world-name: world
-  x: -1028.8459572538025
-  y: -53.0
-  z: -338.55834163943035
-  yaw: 0.712158203125
-  pitch: 6.254144191741943
+  x: 21258.77235174445
+  y: 280.0
+  z: 23001.141451756004
+  yaw: 172.71470642089844
+  pitch: 31.16509246826172

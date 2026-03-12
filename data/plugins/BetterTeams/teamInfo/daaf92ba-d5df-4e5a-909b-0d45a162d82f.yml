@@ -8,9 +8,7 @@ color: '6'
 chests: []
 players:
 - 00000000-0000-0000-0009-01f2e2f08b30,OWNER
-- 4b3b49b0-df8a-3f95-8b38-f1342987ada6,DEFAULT
-- 00000000-0000-0000-0009-01fb1a84a39f,DEFAULT
 anchoredPlayers: []
 level: 1
 tag: MSMC
-score: 21
+score: 20
