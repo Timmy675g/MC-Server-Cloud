@@ -10,16 +10,21 @@ data/server.properties
 data/.rcon-cli.env
 data/.rcon-cli.yaml
 
-# Plugin Data & Metrics
+data/plugins/*
+
+# 2. Re-include all .jar files in the plugins folder
+!data/plugins/*.jar
+
+# 3. Re-include the PlaceholderAPI/expansions folder specifically
+!data/plugins/PlaceholderAPI/
+!data/plugins/PlaceholderAPI/expansions/
+!data/plugins/PlaceholderAPI/expansions/*.jar
+
+# 4. Explicitly ignore the data folders of other plugins you don't want to track
 data/plugins/bStats/
-data/plugins/Dynmap/web/
-data/usercache.json
-data/whitelist.json.tmp
+data/plugins/BetterTeams/
 data/plugins/Essentials/userdata/
 data/plugins/Essentials/usermap.bin
-data/plugins/BetterTeams/
-plugins/*
-!plugins/*.jar
 
 # Java/Server Junk 
 data/cache/

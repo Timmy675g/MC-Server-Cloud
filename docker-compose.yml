@@ -8,6 +8,8 @@ services:
     ports:
       - "25565:25565"     # Java
       - "19132:19132/udp" # Bedrock
+      - "8804:8804"   # Plan
+      - "8888:8000"   # PlaceholderWeb API
     environment:
       EULA: "TRUE"
       TYPE: "CUSTOM"

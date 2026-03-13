@@ -21,7 +21,7 @@ General Settings:
 Combat Tag:
   Enabled: true
   # How long should the combat tag last in seconds
-  Time: 15
+  Time: 60
   # Sets the player glowing while tagged, for MC 1.9+
   Glowing: true
   # Will untag the player when they kill their current enemies
@@ -180,7 +180,7 @@ Anti Border Hopping:
 Newbie Protection:
   Enabled: true
   # How many seconds should newbie protection last, persists through restarts
-  Time: 600
+  Time: 500
   # If players should be allowed to remove their protection with /newbie disable
   Allow Player Disable: true
   # Block players from picking up items or place blocks while they have protection
@@ -193,13 +193,16 @@ Newbie Protection:
   Boss Bar:
     Enabled: true
     # Message to show in the boss bar. Use <time> placeholder for remaining time (auto-formatted as min:sec)
-    Message: '&6✦ &a&lNewbie Protection &6✦ &e&l<time>'
+    Message: '&6✦ &a&lNewbie Protection Activated! &6✦ &e&l<time>'
     # See here for bar color options - https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html
     BarColor: GREEN
     # See here for bar style options - https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarStyle.html
     BarStyle: SOLID
   Command Blacklist:
-    - 'examplecommand'
+    - 'home'
+    - 'tpa'
+    - 'team home'
+    - 'team warp'
 
 #####################
 ####  Cooldowns  ####
@@ -275,7 +278,7 @@ Other Settings:
   # mode 'KEEP' - (Players keep items when killed in PvP but not in PvE),
   # mode 'TRANSFER' - (Same as 'DROP' but transfer items(not exp) directly to killer's inventory without drops)
   # mode 'CLEAR' - (Clear all drops and exp on death, this DELETES everything on death so make sure it is what you want)
-  Player Drop Mode: ALWAYS
+  Player Drop Mode: DROP
   # Show player health, uses scoreboards so might conflict with other plugins
   Show health under name:
     Enabled: true
